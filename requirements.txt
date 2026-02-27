@@ -1,0 +1,46 @@
+# Core AI / LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+openai>=1.50.0
+
+# FastMCP
+fastmcp>=2.0.0
+
+# Vector DB & RAG
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+
+# API Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+websockets>=13.0
+python-multipart>=0.0.12
+
+# Database
+sqlalchemy>=2.0.0
+# cx-Oracle>=8.3.0  # Oracle 사용시 주석 해제
+
+# Elasticsearch (Log System)
+elasticsearch[async]>=8.0.0
+
+# Cache
+redis>=5.0.0
+
+# Utilities
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+httpx>=0.28.0
+aiofiles>=24.0.0
+Pillow>=10.0.0
+
+# Monitoring
+langsmith>=0.2.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
